@@ -5,7 +5,6 @@
   "idf.openOcdConfigs": [
     "board/esp32p4-builtin.cfg"
   ],
-  "idf.portWin": "COM38",
   "idf.toolsPathWin": "C:\\Users\\Chris\\.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32p4"
@@ -17,5 +16,6 @@
     "--compile-commands-dir=${workspaceFolder}\\build"
   ],
   "idf.flashType": "UART",
-  "idf.currentSetup": "C:\\Users\\Chris\\esp\\v5.5.1\\esp-idf"
+  "idf.currentSetup": "C:\\Users\\Chris\\esp\\v5.5.1\\esp-idf",
+  "idf.port": "COM38"
 }
